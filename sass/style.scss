@@ -1,0 +1,94 @@
+/* Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+  }
+
+body {
+margin: 0 auto;
+font-size: 16px;
+line-height: 1.7;
+font-family: 'Open Sans', sans-serif;
+color: black;
+height: 100%;
+}
+
+.container {
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 20px;
+height: 100%;
+}
+
+/*Header*/
+
+.splash {
+    height: 600px;
+    position: relative;
+    background-image: url(/images/pexels-polina-kovaleva-5827831.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.navigation {
+    text-align: right;
+    padding: 0 30px;
+}
+.nav-list li {
+    display: inline-block;
+    width: 150px; 
+}
+
+.navigation p{
+    position: absolute;
+    text-align: left;
+    left: 80px;
+    top: 10px;
+    color: gold;
+    font-weight:lighter;
+    font-size: 20px;
+    font-style: italic;
+}
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.splash h1 {
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.splash h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 70;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgba(255, 255, 0, 0.46);
+    color: white;
+}
+
