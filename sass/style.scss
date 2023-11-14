@@ -23,6 +23,7 @@ max-width: 1140px;
 margin: 0 auto;
 padding: 0 20px;
 height: 100%;
+text-align: center;
 }
 
 /*Header*/
@@ -92,3 +93,21 @@ height: 100%;
     color: white;
 }
 
+/*Our services*/
+
+.our-service p {
+    color: grey;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.box {
+    flex: 0 0 33.333%;
+    text-align: center;
+    padding: 30px 50px 70px 50px;
+    position: relative;
+} 
